@@ -1,61 +1,121 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <title>Tom M</title>
     </head>
     <body>
+        <!-- internal style sheet test
+        <style>
+            h1 {
+                color:red;
+            }
+        </style> -->
+
         <main>
-            <header>
-                <h1>Tom M</h1>
-                <h2>Coder in training</h2>
-                <img src="images/tompic.jpg" alt="Picture of Tom M">
-                <nav>
-                    <ul>
-                        <li><a href="./pages/contact.html">Contact Me</a> </li>
-                        <li><a href="./pages/projects.html">Projects</a></li>
+            <nav>
+                <div>
+                    <a href="#top" class="nav-link">Home</a>
+                </div>
+                <div>
+                    <a href="#about" class="nav-link">About Me</a>
+                </div>
+                <div>
+                    <a href="./pages/contact.html" class="nav-link">Contact Me</a> 
+                </div>
+                <div>
+                    <a href="#projects" class="nav-link">Projects</a>
+                </div>
+            </nav>
+
+            <div class="body-main">
+                <header>
+                    <h1 id="top">Tom Mills</h1>
+                    <h2>Coder in training</h2>
+                    <img src="images/tompic.jpg" alt="Picture of Tom M" id="me-pic">
+
+                </header>
+                
+
+                <br />
+                <hr />
+
+                <div id="about-me">
+                    <h3>About Me</h3>
+                    <p>I'm Tom from Birmingham. I'm currently a student at Manchester Codes</p>
+                    <p>I first got interested in coding after some exposure in my job working with rents and service charges. I loved the problem solving and logical aspects as well as the idea of learning a new skill. After some self learning I settled on joining Manchester Codes to accelerate my move into a tech based career.</p>
+                    <div>
+                        <p>Third paragraph</p>
+                    </div>
+                    <figure>
+                        <img class="about-pic" src="images/mountpic.jpg" alt="Picture of Caro and Tom at the top of Helvellyn">
+                        <br/>
+                        <figcaption>
+                            The time I climbed Helvellyn via Striding Edge with my wonderful girlfriend Caro.
+                        </figcaption>
+                    </figure>
+                    <br/>
+                    <figure>
+                        <img class="about-pic" src="images/gigpic.jpg" alt="Tom & friends at gig">
+                        <br/>
+                        <figcaption>
+                            Great to be able to see live music again with friends.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <h4 id="qual">Qualities</h4>
+                    <ol>
+                        <li>Friendly</li>
+                        <li>Openminded</li>
+                        <li>Logical thinker</li>
+                    </ol>
+                </div>
+                <div>
+                    <h4>Hobbies & Interests</h4>
+                    <ul class="hobbies">
+                        <li>Listening to music</li>
+                        <li>Live gigs & festivals</li>
+                        <li>Rock climbing</li>
+                        <li>Video games</li>
+                        <li>Technology</li>
                     </ul>
-                </nav>
-            </header>
-            <br />
-            <hr />
-            <div>
-                <h3>About Me</h3>
-                <p>I'm Tom from Birmingham. I'm currently a student at Manchester Codes</p>
-                <p>I got into coding after some exposure in my job working with rents and service charges. I loved the problem solving and logical aspects as well as the idea of learning a new skill. After some self learning I settled on joining Manchester Codes to accelerate my move into a tech based career.</p>
-                <figure>
-                    <img src="images/mountpic.jpg" alt="Picture of Caro and Tom at the top of Helvellyn">
+                </div>
+                <div>
+                    <h3 id="projects">Projects</h3>
                     <br/>
-                    <figcaption>
-                        The time I climbed Helvellyn via Striding Edge with my wonderful girlfriend Caro.
-                    </figcaption>
-                </figure>
-                <br/>
-                <figure>
-                    <img src="images/gigpic.jpg" alt="Tom & friends at gig">
-                    <br/>
-                    <figcaption>
-                        Great to be able to see live music again with friends.
-                    </figcaption>
-                </figure>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Project Name</th>
+                                <th>Image</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Testing 1</td>
+                                <td><img src="./images/test.jpg" alt="testing"></td>
+                                <td>Test test test</td>
+                            </tr>
+                            <tr>
+                                <td>Testing 2</td>
+                                <td><img src="./images/test.jpg" alt="testing"></td>
+                                <td>test test test</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">That's all... for now!</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
             </div>
-            <div>
-                <h4>Qualities</h4>
-                <ol>
-                    <li>Friendly</li>
-                    <li>Openminded</li>
-                    <li>Logical thinker</li>
-                </ol>
-            </div>
-            <div>
-                <h4>Hobbies & Interests</h4>
-                <ul>
-                    <li>Listening to music</li>
-                    <li>Live gigs & festivals</li>
-                    <li>Rock climbing</li>
-                    <li>Video games</li>
-                    <li>Technology</li>
-                </ul>
-            </div>
+            
+
+            
             <footer>2022 Page created by Thomas Mills</footer>
         </main>
     </body>

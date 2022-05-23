@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(6, 33, 33);
+    color:rgb(228,220,173)
+}
+
+nav{
+    background-color: rgb(24,24,16);
+    height:100%;
+    width:98px;
+    position:fixed;
+    left:0;
+    top:0;
+    padding-top:40px;
+    border-right: 2px solid rgb(238,238,238);
+    display:flex;
+    flex-direction:column;
+   
+}
+
+.nav-link, .nav-link:visited {
+    text-decoration:none;
+    color:rgb(238,238,238);
+    font-weight:800;
+    -webkit-transition:color 2s;
+    transition:color 2s;
+
+}
+
+.nav-link:hover {
+    color:rgb(31, 99, 99);
+}
+
+.body-main{
+    margin-left:100px
+
+}
+
+header{
+    text-align:center;
+}
+
+
+#me-pic{
+    border: 10px solid rgb(238,238,238);
+    border-radius:20px;
+    }
+
+
+
+
