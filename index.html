@@ -17,19 +17,22 @@
                 <div>
                     <a href="#top" class="nav-link">Home</a>
                 </div>
+                <br/>
                 <div>
-                    <a href="#about" class="nav-link">About Me</a>
+                    <a href="#about-me" class="nav-link">About Me</a>
                 </div>
+                <br/>
                 <div>
-                    <a href="./pages/contact.html" class="nav-link">Contact Me</a> 
+                    <a href="#contact-me" class="nav-link">Contact Me</a> 
                 </div>
+                <br/>
                 <div>
                     <a href="#projects" class="nav-link">Projects</a>
                 </div>
             </nav>
 
             <div class="body-main">
-                <header>
+                <header class="cent-txt">
                     <h1 id="top">Tom Mills</h1>
                     <h2>Coder in training</h2>
                     <img src="images/tompic.jpg" alt="Picture of Tom M" id="me-pic">
@@ -41,27 +44,29 @@
                 <hr />
 
                 <div id="about-me">
-                    <h3>About Me</h3>
-                    <p>I'm Tom from Birmingham. I'm currently a student at Manchester Codes</p>
-                    <p>I first got interested in coding after some exposure in my job working with rents and service charges. I loved the problem solving and logical aspects as well as the idea of learning a new skill. After some self learning I settled on joining Manchester Codes to accelerate my move into a tech based career.</p>
-                    <div>
-                        <p>Third paragraph</p>
+                    <h3 class="cent-txt">About Me</h3>
+                    <div class="cent-txt">
+                        <p>I'm Tom from Birmingham. I'm currently a student at Manchester Codes</p>
+                        <p>I first got interested in coding after some exposure in my job working with rents and service charges. I loved the problem solving and logical aspects as well as the idea of learning a new skill. After some self learning I settled on joining Manchester Codes to accelerate my move into a tech based career.</p>
                     </div>
-                    <figure>
-                        <img class="about-pic" src="images/mountpic.jpg" alt="Picture of Caro and Tom at the top of Helvellyn">
+                    <div id="about-flex">
+                        <figure>
+                            <img class="about-pic" src="images/mountpic.jpg" alt="Picture of Caro and Tom at the top of Helvellyn">
+                            <br/>
+                            <figcaption>
+                               Climbing Helvellyn via Striding Edge.
+                            </figcaption>
+                        </figure>
                         <br/>
-                        <figcaption>
-                            The time I climbed Helvellyn via Striding Edge with my wonderful girlfriend Caro.
-                        </figcaption>
-                    </figure>
-                    <br/>
-                    <figure>
-                        <img class="about-pic" src="images/gigpic.jpg" alt="Tom & friends at gig">
-                        <br/>
-                        <figcaption>
-                            Great to be able to see live music again with friends.
-                        </figcaption>
-                    </figure>
+                        <figure>
+                            <img class="about-pic" src="images/gigpic.jpg" alt="Tom & friends at gig">
+                            <br/>
+                            <figcaption>
+                                Great to be able to see live music again with friends.
+                            </figcaption>
+                        </figure>
+                    </div>
+                    
                 </div>
                 <div>
                     <h4 id="qual">Qualities</h4>
@@ -81,6 +86,9 @@
                         <li>Technology</li>
                     </ul>
                 </div>
+
+                <br/>
+
                 <div>
                     <h3 id="projects">Projects</h3>
                     <br/>
@@ -111,12 +119,65 @@
                         </tfoot>
                     </table>
                 </div>
+                <br/>
+
+                <div id="contact-me">
+
+                    <h3>Contact Me</h3>
+
+                    <form>
+                        <fieldset>
+                            <legend>Your Details</legend>
+        
+                            <label>
+                                Name:
+                                <input type="text" name="name">
+                            </label>
+        
+                            <br/>
+        
+                            <label>
+                                Email:
+                                <input type="email" name="email">
+                            </label>
+        
+                            <br/>
+                            <br/>
+        
+                            <label>
+                                Contact reason:
+                                <br/>
+                                <input type="radio" name="Contres" value="general" checked="checked">
+                                General enquiry
+                                <br/>
+                                <input type="radio" name="Contres" value="hello">
+                                Say hi
+                                <br/>
+                                <input type="radio" name="Contres" value="suggest">
+                                Suggestion
+                            </label>
+        
+                            <br/>
+                            <br/>
+        
+                            <textarea name="comments" placeholder="Enter comment"></textarea>
+        
+                            <br/>
+        
+                            <input type="submit" name="submit" value="Submit">
+        
+                        </fieldset>
+                    </form>
+                </div>
+                <br/>
+
+                <footer>2022 Page created by Thomas Mills</footer>
 
             </div>
             
 
             
-            <footer>2022 Page created by Thomas Mills</footer>
+            
         </main>
     </body>
 </html>

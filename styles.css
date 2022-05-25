@@ -36,15 +36,26 @@ nav{
 
 }
 
-header{
+.cent-txt{
     text-align:center;
 }
-
 
 #me-pic{
     border: 10px solid rgb(238,238,238);
     border-radius:20px;
     }
+
+#about-flex{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    flex-basis:403px;
+}
+
+#about-flex figure img{
+    border: 5px solid rgb(238,238,238);
+    border-radius:20px;
+}
 
 
 
